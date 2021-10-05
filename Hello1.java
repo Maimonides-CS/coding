@@ -2,6 +2,7 @@ public class Hello1 { //class definition ,"public" means other classes have acce
   public static void main(String[] args) { //method definition
     System.out.println("Hello world!");
     int j = 1;
+    ////////
     /*
     for (int i=0; i < 5; i++) {
         
