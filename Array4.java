@@ -1,4 +1,4 @@
-public class Hello1 { //class definition ,"public" means other classes have access to this class
+public class Array4 { //class definition ,"public" means other classes have access to this class
   public static void main(String[] args) { //method definition
     //String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
     //int[] myNum = {10, 20, 30, 40};
