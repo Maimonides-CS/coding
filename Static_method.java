@@ -9,7 +9,7 @@ public class Static_method {
     System.out.println("Hello World!");
   }
   public static void main(String[] args) {
-        Static_method myObj1 = new Hello1();
+        Static_method myObj1 = new Static_method();
         myObj1.x = 40;
         myObj1.myMethod1();
         myMethod();
