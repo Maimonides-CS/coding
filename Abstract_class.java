@@ -15,7 +15,7 @@ class Abstract_class {
   }
 }
 
-abstract class Hello2 {
+abstract class Hello2 { //This is an Abstract class because it has an Abstract method
   public String fname = "John";
   public int age = 24;
   public abstract void study(); // abstract method
