@@ -14,9 +14,9 @@ Hints:
      https://www.w3schools.com/java/java_hashmap.asp
 
 2. There are two ways to split a string into words.
-    The first way is to use the String split method and a regular     expression:  String[] result = st_input.split(",|:| ");
+    The first way is to use the String split method and a regular     expression:      String[] result = st_input.split(",|:| |\\.");
 
-    The second way is to write two for-loops and use the substring method.
+    The second way is to write a for-loop and use the substring method.
      You can learn how to use the substring method here:
       https://www.w3schools.com/jsref/jsref_substring.asp
       
