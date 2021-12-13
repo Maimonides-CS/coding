@@ -1,0 +1,24 @@
+This assignment is very interesting.
+I copied three sentences from the New York Times.
+
+    String st1= "Live Updates: Tornado Death Toll Rises as States Assess Damage";
+    String st2 = "At least 90 people were killed by the devastating storms on Friday night, including 80 in Kentucky. The city of Edwardsville, Ill., released the names of several victims on Sunday.";
+    String st3 = "The number of people reported missing at a candle factory in Mayfield, Ky., after a devastating tornado was lowered Sunday evening after company officials said that most of the employees had now been accounted for.";
+
+If I concatenate the three strings, the result would be String input = st1 + st2 +st3 .
+Could you count the frequency usage of each word in the input String? For example, in the input string, "was" appeared once and "people" appeared twice. 
+
+Hints: 
+1. You need to use Hashmap. You can find the Hashmap methods you need here:
+     https://www.javatpoint.com/java-hashmap
+     https://www.w3schools.com/java/java_hashmap.asp
+
+2. There are two ways to split a string into words.
+    The first way is to use the String split method and a regular     expression:  String[] result = st_input.split(",|:| ");
+
+    The second way is to write two for-loops and use the substring method.
+     You can learn how to use the substring method here:
+      https://www.w3schools.com/jsref/jsref_substring.asp
+
+You should save your results in a hashmap and print out the hashmap.
+
