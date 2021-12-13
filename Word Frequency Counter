@@ -19,6 +19,9 @@ Hints:
     The second way is to write two for-loops and use the substring method.
      You can learn how to use the substring method here:
       https://www.w3schools.com/jsref/jsref_substring.asp
+      
+ 3. Hashmap<String, Integer> hm = new Hashmap<String, Integer>();
+ 
 
 You should save your results in a hashmap and print out the hashmap.
 
