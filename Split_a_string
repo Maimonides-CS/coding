@@ -1,0 +1,16 @@
+In our last homework, we used this sentence to split a string:
+String[] result = st_input.split(",|:| |\\.");
+
+Could you read the following two links and explain how this split sentence works?
+https://www.w3schools.com/java/java_regex.asp
+https://www.baeldung.com/java-regexp-escape-char
+
+Moreover, could you use the substring method provided by Java to rewrite the aforementioned split sentence and integrate your new splitter with the rest of your code in your last homework ? You can learn how to use the substring method by reading this link:
+https://www.w3schools.com/jsref/jsref_substring.asp
+
+Furthermore, if you use your new splitter, does your code in your last homework generate the same result? Does your new code run faster?
+
+Hints:
+1. How many for-loops do you need to use in order to rewrite the aforementioned split sentence? Could you use just one for-loop?
+2. You can use this sentence, st_input.charAt(i) == ':', to see whether a char at a particular position is equal to what you want to compare.
+
